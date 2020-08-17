@@ -9,12 +9,9 @@ function ageInDays(){
    // create a content
     var answer=document.createTextNode("You have lived "+ days +" days.");
  
-    /*set the id attribute to "age" to a h1 element:
-    the id is flex-box-reault  
-    Element.setAttribute(attribute, value);   
-    */
-    h1.setAttribute("id","age");  
-    //add a text note to h1
+    //set the id attribute to "age" to a h1 element   
+         h1.setAttribute("id","age");  
+    //put a text note into h1
     h1.appendChild(answer);
  
     //add h1 value to the "flex-box-result"
